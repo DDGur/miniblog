@@ -28,12 +28,12 @@
 					{% for post in post_list %}
 					<div class="item">
 						<div class="image left">
-							<a href="#"><img src="{{ post.image.url }}" width="200" /></a>
+							<a href="#"><img src="{{ post.image.url }}" width="150"/></a>
 						</div>
 						<div class="text left">
 							<h4><a href = "{{ post.id }}"> {{ post.title }}</a></h4>
 							<p>{{ post.text }}</p>
-							<p>Автор: {{ post.author }} </p>
+							<p><h2>Автор:</h2> {{ post.author }} </p>
 						</div>
 						<div class="cl">&nbsp;</div>
 					</div>
